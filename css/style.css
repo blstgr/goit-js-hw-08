@@ -1,0 +1,219 @@
+:root {
+  --color-white: #fff;
+  --color-base: #434455;
+  --color-base-dark: #2e2f42;
+  --color-base-light: #f4f4fd;
+  --color-accent: #4d5ae5;
+  --color-accent-dark: #404bbf;
+
+  --font-family: 'Roboto', sans-serif;
+
+  --text-size: 16px;
+  --text-line-height: 1.5;
+  --text-font-weight: 400;
+  --text-letter-spacing: 0.02em;
+  --text-color: var(--color-base);
+
+  --h-color: var(--color-base-dark);
+  --h-font-weight: 700;
+  --h-text-transform: capitalize;
+  --h-sm-font-weight: 500;
+
+  --h1-size: 56px;
+  --h1-line-height: 1.07;
+
+  --h2-size: 36px;
+  --h2-line-height: 1.11;
+
+  --h3-size: 20px;
+  --h3-line-height: 1.2;
+
+  --bg-color: var(--color-white);
+
+  --logo-font-family: 'Raleway', sans-serif;
+  --logo-font-weight: 700;
+  --logo-font-size: 18px;
+  --logo-line-height: 1.17;
+  --logo-letter-spacing: 0.03em;
+  --logo-color: var(--color-accent);
+
+  --radius: 4px;
+
+  --btn-font-weight: 500;
+  --btn-line-height: 1.5;
+  --btn-letterspacing: 0.04em;
+  --btn-shadow: 0px 4px 4px 0px #00000026;
+
+  --card-shadow:
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font-family);
+  font-weight: var(--text-font-weight);
+  font-size: var(--text-size);
+  line-height: var(--text-line-height);
+  letter-spacing: var(--text-letter-spacing);
+  color: var(--text-color);
+  font-optical-sizing: auto;
+}
+
+.text {
+  margin: 0;
+}
+
+.title-lg,
+.title-md,
+.title-sm {
+  margin: 0;
+  font-weight: var(--h-font-weight);
+  color: var(--h-color);
+  letter-spacing: var(--text-letter-spacing);
+}
+
+.title-lg {
+  margin-bottom: 48px;
+  font-size: var(--h1-size);
+  line-height: var(--h1-line-height);
+}
+
+.title-md {
+  margin-bottom: 72px;
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
+  text-transform: var(--h-text-transform);
+  text-align: center;
+}
+
+.title-sm {
+  margin-bottom: 8px;
+  font-size: var(--h3-size);
+  font-weight: var(--h-sm-font-weight);
+  line-height: var(--h3-line-height);
+}
+
+.logo {
+  font-family: var(--logo-font-family);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
+  letter-spacing: var(--logo-letter-spacing);
+  color: var(--logo-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-highlight {
+  color: var(--color-base-dark);
+}
+
+.nav-link,
+.header-contact-link {
+  font-weight: 500;
+  line-height: var(--text-line-height);
+  letter-spacing: var(--text-letter-spacing);
+  color: var(--color-base-dark);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.header-contact-link {
+  font-weight: var(--text-font-weight);
+  color: var(--color-base);
+}
+
+.nav-link:hover,
+.header-contact-link:hover,
+.nav-link:active,
+.header-contact-link:active {
+  color: var(--color-accent-dark);
+}
+
+.nav-link:focus,
+.header-contact-link:focus {
+  color: var(--color-accent-dark);
+}
+
+.list-unstyled {
+  list-style-type: none;
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+.section-hero {
+  background-color: var(--color-base-dark);
+  text-align: center;
+}
+
+.section-inverted {
+  background-color: var(--color-base-light);
+}
+
+.section-hero .title-lg {
+  color: var(--color-white);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: var(--color-accent);
+  border: none;
+  font-weight: var(--btn-font-weight);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  line-height: var(--btn-line-height);
+  letter-spacing: var(--btn-letterspacing);
+}
+
+.btn:hover {
+  background-color: var(--color-accent-dark);
+}
+
+.btn:focus {
+  outline: none;
+  background-color: var(--color-accent-dark);
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.card {
+  background-color: var(--color-white);
+}
+
+.card .title-sm {
+  margin-top: 32px;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.card .text {
+  margin-right: 16px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.footer {
+  background-color: var(--color-base-dark);
+  font-weight: var(--text-font-weight);
+}
+
+.footer .text {
+  color: var(--color-base-light);
+}
+.footer .logo {
+  margin-bottom: 16px;
+}
+.footer .logo span {
+  color: var(--color-base-light);
+}
