@@ -305,12 +305,16 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 .footer .text {
   color: var(--color-base-light);
+  width: calc((100% - (2 * 24px)) / 3);
 }
+
 .footer .logo {
   margin-bottom: 16px;
 }
+
 .footer .logo span {
   color: var(--color-base-light);
 }
