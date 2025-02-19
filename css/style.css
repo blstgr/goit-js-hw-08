@@ -123,22 +123,26 @@ img {
   width: 100%;
 }
 
-.list-unstyled {
+.list-unstyled,
+.list-unstyled-wrapped {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.col-4 > * {
+.list-unstyled-wrapped {
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.list-col-4 .list-item {
   width: calc((100% - (3 * 24px)) / 4);
 }
 
-.col-3 > * {
+.list-col-3 .list-item {
   width: calc((100% - (2 * 24px)) / 3);
 }
 
