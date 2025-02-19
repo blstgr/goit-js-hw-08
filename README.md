@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Demo link - https://blstgr.github.io/goit-markup-hw-02/
+Demo link - https://blstgr.github.io/goit-markup-hw-03/
