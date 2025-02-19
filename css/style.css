@@ -138,11 +138,11 @@ img {
   row-gap: 48px;
 }
 
-.list-col-4 .list-item {
+.list-col-4 li {
   width: calc((100% - (3 * 24px)) / 4);
 }
 
-.list-col-3 .list-item {
+.list-col-3 li {
   width: calc((100% - (2 * 24px)) / 3);
 }
 
