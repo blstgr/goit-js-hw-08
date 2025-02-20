@@ -49,6 +49,9 @@
     0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+  --col-3: calc((100% - 2 * 24px) / 3);
+  --col-4: calc((100% - 3 * 24px) / 4);
 }
 
 body {
@@ -139,11 +142,11 @@ img {
 }
 
 .list-col-4 li {
-  width: calc((100% - (3 * 24px)) / 4);
+  width: var(--col-4);
 }
 
 .list-col-3 li {
-  width: calc((100% - (2 * 24px)) / 3);
+  width: var(--col-3);
 }
 
 .logo {
@@ -308,7 +311,7 @@ button {
 
 .footer .text {
   color: var(--color-base-light);
-  width: calc((100% - (2 * 24px)) / 3);
+  width: var(--col-3);
 }
 
 .footer .logo {
