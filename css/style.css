@@ -310,6 +310,8 @@ button {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+  border-bottom-right-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
 }
 
 .card-raised {
