@@ -108,7 +108,7 @@ body {
   text-align: left;
 }
 
-.list-card-portfolio .list-card-item {
+.list-card-portfolio-item {
   width: var(--col-3);
 }
 
@@ -292,38 +292,29 @@ button {
 
 /* card */
 
-.card {
+.list-card-item,
+.list-card-portfolio-item {
   background-color: var(--color-white);
-  border-radius: 0 0 var(--radius) var(--radius);
 }
 
-.card-footer {
+.list-card-item {
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--card-shadow);
+}
+
+.list-card-item-footer {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.list-card-portfolio-item-footer {
   padding: 32px 16px;
   border-right: 1px solid var(--color-gray-light);
   border-bottom: 1px solid var(--color-gray-light);
   border-left: 1px solid var(--color-gray-light);
-  background: var(--color-white);
-}
-
-.section-inverted .card-footer {
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-  border-bottom-right-radius: var(--radius);
-  border-bottom-left-radius: var(--radius);
-}
-
-.card-raised {
-  box-shadow: var(--card-shadow);
-}
-
-.card-raised .card-footer {
-  border: none;
-  text-align: center;
 }
 
 /* footer */
-
 .footer {
   padding: 100px 0;
   background-color: var(--color-base-dark);
