@@ -294,8 +294,7 @@ button {
 
 .card {
   background-color: var(--color-white);
-  border-bottom-right-radius: var(--radius);
-  border-bottom-left-radius: var(--radius);
+  border-radius: 0 0 var(--radius) var(--radius);
 }
 
 .card-footer {
