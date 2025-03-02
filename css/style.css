@@ -90,8 +90,8 @@ body {
 .list-feature,
 .list-card,
 .list-card-portfolio,
-.list-social-links,
-.footer-social-links{
+.list-social,
+.footer-social{
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -115,13 +115,13 @@ body {
   width: var(--col-3);
 }
 
-.list-social-links {
+.list-social {
   justify-content: center;
   margin-top: 8px;
 }
 
-.list-social-links-item,
-.list-footer-social-links-item{
+.list-social-item-link,
+.footer-social-item-link{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,10 +132,10 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-social-links-item:hover{
+.list-social-item-link:hover{
   background-color: var(--color-accent-dark);
 }
-.list-social-links-item:focus{
+.list-social-item-link:focus{
   background-color: var(--color-accent-dark);
 }
 
@@ -466,12 +466,12 @@ button {
   color: var(--color-white);
 }
 
-.footer-social-links {
+.footer-social {
   gap: 16px;
 }
 
-.list-footer-social-links-item:hover,
-.list-footer-social-links-item:focus{
+.footer-social-item-link:hover,
+.footer-social-item-link:focus{
   background-color: #31d0aa;
 }
 
