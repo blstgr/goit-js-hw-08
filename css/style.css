@@ -251,7 +251,7 @@ img {
   color: var(--color-base-dark);
   text-decoration: none;
   font-style: normal;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link-active {
@@ -321,6 +321,8 @@ button {
 
 .section-hero {
   position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
   background-color: var(--color-base-dark);
   text-align: center;
@@ -345,7 +347,6 @@ button {
 
 .section-hero .container {
   position: relative;
-  max-width: 1440px;
 }
 
 .section-hero .title-lg {
@@ -359,7 +360,7 @@ button {
   display: block;
   min-width: 169px;
   margin: 0 auto;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* card */
