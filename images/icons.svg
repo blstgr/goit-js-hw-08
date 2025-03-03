@@ -277,4 +277,8 @@
     </defs>
   </symbol>
 
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" id="check">
+    <path d="M0.730541 8.04179L5.41382 12.1419L14.5 1.5" stroke="currentColor" stroke-width="3"></path>
+  </symbol>
+
 </svg>
