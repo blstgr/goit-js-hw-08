@@ -741,6 +741,7 @@ button {
 
 .form-footer .btn-s {
   min-width: 165px;
+  height: 40px;
 }
 
 .footer .footer-logo {
