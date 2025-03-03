@@ -430,11 +430,6 @@ button {
 
 /*icon*/
 
-.icon {
-  width: 64px;
-  height: 64px;
-}
-
 .feature-icon {
   display: flex;
   align-items: center;
@@ -492,6 +487,7 @@ button {
   margin-bottom: 8px;
   width: 24px;
   height: 24px;
+  line-height: 1;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--color-gray-light);
