@@ -648,13 +648,11 @@ button {
 /*checkbox*/
 
 .checkbox-label {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-gray-dark);
-  display: flex;
-  align-items: center;
-  gap: 8px;
   cursor: pointer;
 }
 
@@ -664,6 +662,7 @@ button {
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid var(--border-color);
   border-radius: 2px;
   fill: transparent;
