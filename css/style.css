@@ -680,11 +680,11 @@ button {
 .checkbox-input:checked + .checkbox-label .checkbox-box {
   background-color: var(--color-accent-dark);
   border: none;
+  fill: #f4f4fd;
 }
 
 .checkbox-input:checked + .checkbox-label .icon {
   display: initial;
-  fill: #f4f4fd;
 }
 
 /* footer */
