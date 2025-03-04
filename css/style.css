@@ -137,7 +137,6 @@ body {
   height: 40px;
   width: 40px;
   background-color: var(--color-accent);
-  color: var(--color-white);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -517,7 +516,7 @@ button {
 }
 
 .modal-close .icon {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
@@ -528,7 +527,7 @@ button {
 
 .modal-close:hover .icon,
 .modal-close:focus .icon {
-  color: var(--color-white);
+  fill: var(--color-white);
 }
 
 .modal .text {
@@ -638,11 +637,12 @@ button {
   transform: translateY(-50%);
   pointer-events: none;
   margin: 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: var(--text-color);
 }
 
 .input:focus + .icon {
-  color: var(--color-accent);
+  fill: var(--color-accent);
 }
 
 /*checkbox*/
@@ -682,9 +682,9 @@ button {
   border: none;
 }
 
-.checkbox-input:checked + .checkbox-label .checkbox-icon {
+.checkbox-input:checked + .checkbox-label .icon {
   display: initial;
-  color: #f4f4fd;
+  fill: #f4f4fd;
 }
 
 /* footer */
