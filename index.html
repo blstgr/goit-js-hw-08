@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
     <link
       rel="stylesheet"
@@ -38,7 +39,16 @@
             Web
             <span class="logo-highlight">Studio</span>
           </a>
-          <ul class="nav-list">
+
+          <!--mobile menu trigger -->
+          <div class="burger-icon" aria-label="toggle menu">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </div>
+
+          <!--desctop nav hiddne on mobile -->
+          <ul class="nav-list nav-list-desktop">
             <li class="nav-list-item">
               <a
                 class="nav-link nav-link-active"
@@ -60,20 +70,106 @@
             </li>
           </ul>
         </nav>
-        <address class="nav">
-          <ul class="nav-list">
-            <li class="nav-list-item">
-              <a class="nav-link nav-link-contact contact-form" href="#">
+
+        <address class="address address-desktop">
+          <ul class="address-list">
+            <li class="address-list-item">
+              <a class="address-link" href="mailto:info@devstudio.com">
                 info@devstudio.com
               </a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-link nav-link-contact" href="tel:+110001111111">
+            <li class="address-list-item">
+              <a class="address-link" href="tel:+110001111111">
                 +11 (000) 111-11-11
               </a>
             </li>
           </ul>
         </address>
+
+        <!--mobile menu is-open -->
+        <div class="mobile-nav-sidebar">
+          <button
+            class="mobile-nav-sidebar-close"
+            aria-label="close menu"
+            type="button"
+          >
+            <svg class="icon" width="8" height="8">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav">
+            <li class="mobile-nav-item">
+              <a
+                href="./index.html"
+                class="mobile-nav-link mobile-nav-link-active"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="" class="mobile-nav-link">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a href="" class="mobile-nav-link">Contacts</a>
+            </li>
+          </ul>
+          <div class="mobile-contacts">
+            <address class="mobile-address">
+              <ul class="mobile-address-list">
+                <li class="mobile-address-list-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="mobile-address-link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="mobile-address-list-item">
+                  <a href="tel:+110001111111" class="mobile-address-link"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="list-social">
+              <li class="list-social-item">
+                <a
+                  class="list-social-item-link"
+                  href="https://www.instagram.com/"
+                >
+                  <svg class="icon-social" height="16" width="16">
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-social-item">
+                <a class="list-social-item-link" href="https://www.x.com/">
+                  <svg class="icon-social" height="16" width="16">
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-social-item">
+                <a
+                  class="list-social-item-link"
+                  href="https://www.facebook.com/"
+                >
+                  <svg class="icon-social" height="16" width="16">
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="list-social-item">
+                <a
+                  class="list-social-item-link"
+                  href="https://www.linkedin.com/"
+                >
+                  <svg class="icon-social" height="16" width="16">
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -81,7 +177,7 @@
       <section class="section section-hero">
         <div class="container">
           <h1 class="title-lg">Effective Solutions for Your Business</h1>
-          <button class="btn" type="button">Order Service</button>
+          <button class="btn contact-form" type="button">Order Service</button>
         </div>
       </section>
 
@@ -437,6 +533,7 @@
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <div class="footer-text">
