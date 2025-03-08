@@ -242,10 +242,12 @@
           <h2 class="title-md">Our Team</h2>
           <ul class="list-card">
             <li class="list-card-item">
-              <img
-                src="./images/img-1.jpg"
-                alt="Mark Guerrero's portrait"
-                width="264">
+              <picture>
+                <img
+                  src="./images/img-6.jpg"
+                  srcset="./images/img-6.jpg 1x, ./images/img@2x-6.jpg 2x"
+                  alt="Mark Guerrero's portrait">
+              </picture>
               <div class="list-card-item-footer">
                 <h3 class="title-sm">Mark Guerrero</h3>
                 <p class="text">Product Designer</p>
@@ -291,10 +293,12 @@
               </div>
             </li>
             <li class="list-card-item">
-              <img
-                src="./images/img-2.jpg"
-                alt="Tom Ford's portrait"
-                width="264">
+              <picture>
+                <img
+                  src="./images/img-7.jpg"
+                  srcset="./images/img-7.jpg 1x, ./images/img@2x-7.jpg 2x"
+                  alt="Tom Ford's portrait">
+              </picture>
               <div class="list-card-item-footer">
                 <h3 class="title-sm">Tom Ford</h3>
                 <p class="text">Frontend Developer</p>
@@ -340,10 +344,12 @@
               </div>
             </li>
             <li class="list-card-item">
-              <img
-                src="./images/img-3.jpg"
-                alt="Camila Garcia's portrait"
-                width="264">
+              <picture>
+                <img
+                  src="./images/img-8.jpg"
+                  srcset="./images/img-8.jpg 1x, ./images/img@2x-8.jpg 2x"
+                  alt="Camila Garcia's portrait">
+              </picture>
               <div class="list-card-item-footer">
                 <h3 class="title-sm">Camila Garcia</h3>
                 <p class="text">Marketing</p>
@@ -389,10 +395,12 @@
               </div>
             </li>
             <li class="list-card-item">
-              <img
-                src="./images/img-4.jpg"
-                alt="Daniel Wilson's portrait"
-                width="264">
+              <picture>
+                <img
+                  src="./images/img-9.jpg"
+                  srcset="./images/img-9.jpg 1x, ./images/img@2x-9.jpg 2x"
+                  alt="Daniel Wilson's portrait">
+              </picture>
               <div class="list-card-item-footer">
                 <h3 class="title-sm">Daniel Wilson</h3>
                 <p class="text">UI Designer</p>
@@ -447,7 +455,27 @@
           <ul class="list-card-portfolio">
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-5.jpg" alt="Project 1" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-5.jpg    1x,
+                      ./images/desk-img@2x-5.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-5.jpg    1x,
+                      ./images/tab-img@2x-5.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-5.jpg"
+                    srcset="
+                      ./images/mob-img-5.jpg    1x,
+                      ./images/mob-img@2x-5.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -461,7 +489,27 @@
             </li>
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-6.jpg" alt="Project 2" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-4.jpg    1x,
+                      ./images/desk-img@2x-4.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-4.jpg    1x,
+                      ./images/tab-img@2x-4.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-4.jpg"
+                    srcset="
+                      ./images/mob-img-4.jpg    1x,
+                      ./images/mob-img@2x-4.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -475,7 +523,27 @@
             </li>
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-7.jpg" alt="Project 3" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-3.jpg    1x,
+                      ./images/desk-img@2x-3.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-3.jpg    1x,
+                      ./images/tab-img@2x-3.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-3.jpg"
+                    srcset="
+                      ./images/mob-img-3.jpg    1x,
+                      ./images/mob-img@2x-3.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -489,7 +557,27 @@
             </li>
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-8.jpg" alt="Project 4" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-2.jpg    1x,
+                      ./images/desk-img@2x-2.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-2.jpg    1x,
+                      ./images/tab-img@2x-2.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-2.jpg"
+                    srcset="
+                      ./images/mob-img-2.jpg    1x,
+                      ./images/mob-img@2x-2.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -503,7 +591,27 @@
             </li>
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-9.jpg" alt="Project 5" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-1.jpg    1x,
+                      ./images/desk-img@2x-1.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-1.jpg    1x,
+                      ./images/tab-img@2x-1.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-1.jpg"
+                    srcset="
+                      ./images/mob-img-1.jpg    1x,
+                      ./images/mob-img@2x-1.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -517,7 +625,27 @@
             </li>
             <li class="list-card-portfolio-item">
               <div class="list-card-portfolio-item-body">
-                <img src="./images/img-10.jpg" alt="Project 6" width="360">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desk-img-10.jpg    1x,
+                      ./images/desk-img@2x-10.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <source
+                    srcset="
+                      ./images/tab-img-10.jpg    1x,
+                      ./images/tab-img@2x-10.jpg 2x
+                    "
+                    media="(min-width: 768px)">
+                  <img
+                    src="./images/mob-img-10.jpg"
+                    srcset="
+                      ./images/mob-img-10.jpg    1x,
+                      ./images/mob-img@2x-10.jpg 2x
+                    "
+                    alt="Mark Guerrero's portrait">
+                </picture>
                 <p class="list-card-portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
