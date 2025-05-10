@@ -1,1 +1,1 @@
-https://blstgr.github.io/goit-js-hw-04
+https://blstgr.github.io/goit-js-hw-05
